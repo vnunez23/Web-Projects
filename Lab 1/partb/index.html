@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index.html</title>
+</head>
+<body>
+	
+	<h1>Welcome to the SAIT Survey!</h1>
+	<h3>Please enter your contact information.</h3>
+	
+	<form action="mailto:youraddr@domain.net" method="GET">
+		<label for="name">Name:</label><br>
+		<input type="text" name="name" id="name" placeholder="John Smith"><br><br>
+
+		<label for="email">Email Address: </label><br>
+		<input type="email" name="email" id="email" placeholder="example@email.com"><br><br>
+
+		<label for="email">Contact Phone Number: </label><br>
+		<!-- pattern in the phone input taken from the example form provided -->
+		<input type="tel" name="phone" id="phone" placeholder="(000)000-0000" pattern="[(][0-9]{3}[)][0-9]{3}[-][0-9]{4}"><br><br>
+
+		<h3>What did you like most about campus?</h3>
+		<label for="choices">(Select all that apply.)</label><br><br>
+
+		<label for="option1">Campus location</label>
+		<input type="checkbox" name="option1" id="option1"><br>
+
+		<label for="option2">Athletic Centre</label>
+		<input type="checkbox" name="option2" id="option2"><br>
+
+		<label for="option3">Student Centre</label>
+		<input type="checkbox" name="option3" id="option3"><br>
+
+		<label for="option4">Lab Classes</label>
+		<input type="checkbox" name="option4" id="option4"><br><br>
+
+		<h3>What made you interested in SAIT?</h3>
+		<label for="interest">Please select one.</label><br><br>
+
+		
+		<label for="interest">Open House</label>
+		<input type="radio" name="interest" id="interest1" value="OpenHouse"><br><br>
+		
+		<label for="interest">Advertising</label>
+		<input type="radio" name="interest" id="interest2" value="Advertising"><br><br>
+		
+		<label for="interest">School Counselling</label>
+		<input type="radio" name="interest" id="interest3" value="SchoolCounselling"><br><br>
+		
+		<label for="interest">Word of Mouth</label>
+		<input type="radio" name="interest" id="interest4" value="WordOfMouth"><br><br>
+
+		<input type="submit" name="Submit"><input type="reset" name="Reset">
+		
+	</form>
+</body>
+</html>
