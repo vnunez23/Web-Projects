@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script type="text/javascript" src="cafe_europa.js"></script>
+	<link rel="stylesheet" type="text/css" href="cafe_europa.css">
+	<title>Cafe Europa Menu</title>
+</head>
+<body>
+	<div>
+		<div id="information"><h1>Cafe Europa<br>
+                    Today is: <span id="dtfield" ></span>
+                <br></h1>
+		<h3>Please fill out the information below to start your order!</h3>
+		<form>
+		<table>
+			<tr>
+				<th class="right">Name:</th><th><input type="text" name="name" id="name" placeholder="John Smith" pattern="[A-Za-z-]{0-25}"></th></tr>
+				<th class="right">Phone Number:</th><th><input type="tel" name="phone" id="phone" placeholder="000-000-0000" required pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"</th>
+				<tr><th class="right">Pickup date and Time:</th><th><input type="datetime-local" name="datetime-local"></th></tr>
+		</table>
+		<h2>Menu</h2>
+<table>
+	<tr>
+	<th>Neapolitan Style Pizzas</th> <th>Sandwich Choices</th><th>Beverages</th>
+</tr>
+<tr><td class="left">
+<figure>
+	<img src="photos/margherita_pizza.jpg" alt="Margherita Pizza"><br>
+	<label for="Margherita"> Margherita: $12.00</label>
+	<input type="Number" id="Margherita" min="0" value="0">
+</figure></td>
+	<td class="left">
+	<figure>
+	<img src="photos/schniztel.jpg" alt="Schnitzel Sandwich"><br>
+	<label for="Schnitzel"> Schnitzel: $8.50</label>
+	<input type="Number" id="Schnitzel" min="0" value="0">
+</figure></td>
+	<td class="left">
+	<figure>
+	<img src="photos/coffee.jpg" alt="Coffee"><br>
+	<label for="Coffee">Coffee: $2.00</label>
+	<input type="Number" id="Coffee" min="0" value="0">
+</figure></td></tr>
+<tr><td class="left">
+<figure>
+	<img src="photos/quattro.jpg" alt="Quattro Formaggi"><br>
+	<label for="Quattro Formaggi">Quattro Formaggi: $12.50</label>
+	<input type="Number" id="Quattro Formaggi" min="0" value="0">
+</figure></td>
+	<td class="left">
+	<figure>
+	<img src="photos/mixed_grill.jpg" alt="Mixed Grill Sandwich"><br>
+	<label for="mixed_grill">Mixed Grill: $9.50</label>
+	<input type="Number" id="mixed_grill" min="0" value="0">
+</figure></td>
+	<td class="left">
+	<figure>
+	<img src="photos/latte.jpg" alt="Latte"><br>
+	<label for="latte">Latte: $2.50</label>
+	<input type="Number" id="latte" min="0" value="0">
+</figure></td></tr>
+<tr><td class="left">
+<figure>
+	<img src="photos/capricciosa.jpg" alt="Capricciosa Pizza"><br>
+	<label for="capricciosa">Capricciosa: $13.00</label>
+	<input type="Number" id="capricciosa" min="0" value="0">
+</figure></td>
+
+	<td class="left">
+	<figure>
+	<img src="photos/big_beef.jpg" alt="Big Beef on a Bun"><br>
+	<label for="big_beef">Big Beef on a Bun: $10.00</label>
+	<input type="Number" id="big_beef" min="0" value="0">
+</figure></td>
+
+	<td class="left">
+	<figure>
+	<img src="photos/softdrink.jpg" alt="Soft Drink"><br>
+	<label for="softdrink">Soft Drink: $1.75</label>
+	<input type="Number" id="softdrink" min="0" value="0">
+</figure></td></tr>
+
+</form>
+</table>
+<input type=button value="Place your order" onClick="buttonclick();">
+<div id="output"></div>
+</div>
+
+</div>
+	</body>
+	</html>
+	<!-- SOURCES
+	margherita_pizza.jpg - https://www.jessicagavin.com/skillet-margherita-pizza/
+	big_beef.jpg - https://www.bettycrocker.com/recipes/slow-cooker-hot-beef-sandwiches-au-jus/6d5b7b12-46af-4e2d-94f9-7b156fc3c083
+	capricciosa.jpg - https://loveandgoodstuff.com/pizza-capricciosa/
+	coffe.jpg - https://www.eatright.org/health/wellness/preventing-illness/benefits-of-coffee
+	latte.jpg - https://aubreyskitchen.com/cardamom-latte/
+	mixed_grill.jpg - https://www.epicurious.com/recipes/food/views/grilled-cuban-sandwich-em-sandwich-cubano-em-364812
+	pizza_background.jpg - https://wallpaperaccess.com/italy-cafe-desktop
+	quattro.jpg - https://www.piccolericette.net/piccolericette/recipe/pizza-ai-quattro-formaggi/
+	schniztel.jpg - https://www.saveur.com/fried-chicken-sandwich-schnitzel-recipe/
+	softdrink.jpg - https://www.fodors.com/news/photos/the-most-delicious-sodas-from-around-the-world
+	 -->
+	
