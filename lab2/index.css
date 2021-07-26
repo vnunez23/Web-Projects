@@ -1,0 +1,16 @@
+@media all{
+	body{
+		font-family: 'Roboto', sans-serif;
+		background-color: #F5FCFF ;
+	}
+	
+figure {
+  float: right;
+  width: 30%;
+  text-align: center;
+  font-style: bold;
+  font-size: smaller;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+}

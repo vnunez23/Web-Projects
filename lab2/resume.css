@@ -1,0 +1,33 @@
+
+		@media all{
+		body
+		{
+		color: black;
+		background-color: #f2f9f3;
+		background-image: 
+
+		}
+		h1 /*selector*/ /*rule*/
+		{
+			color:black; /*property : value pair*/
+
+		}
+
+		.centertext{
+			text-align: center;
+		}
+		.lefttext{
+			text-align: left;
+		}
+		.importanttext
+		{
+			font-weight: bold;
+			font-size: 150%;
+		}
+
+}
+@media print{
+	body{
+		background-color: white;
+		font-family: sans-serif;
+}
