@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+	<title>index.html</title>
+</head>
+<body>
+	<h1>Western Columbia Grocers: Registration Form</h1>
+	<form action="mailto:http://localhost/registration.html" method="GET">
+		<label for="name">Name:</label><br>
+		<input type="text" name="name" id="name" placeholder="John Smith" pattern="[A-Za-z-]{0-25}"><br><br>
+
+		<label for="Address">Address: </label><br>
+		<input type="text" name="Address" id="Address" placeholder="123 street SW"><br><br>
+
+		<label for="email">Telephone Number: </label><br>
+		<input type="tel" name="phone" id="phone" placeholder="000-000-0000" pattern="[0-9]{3}[-][0-9]{3}[-][0-9]{4}"><br><br>
+
+		<label for="age">Age: </label><br>
+		<input type="Number" name="age" id="age"><br><br>
+
+		<label for="email">Email Address: </label><br>
+		<input type="email" name="email" id="email" placeholder="example@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br><br>
+		<!-- pattern found on W3 schools -->
+
+		<label for="regDate">Registration date: </label><br>
+		<input type="date" name="regDate" id="regDate"><br><br>
+
+		<input type="submit" name="Submit"><input type="reset" name="Reset"></form>
+
+</body>
+</html>

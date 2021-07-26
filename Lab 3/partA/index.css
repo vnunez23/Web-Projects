@@ -1,0 +1,71 @@
+@media all{
+	body{
+		background-color:#fffee0;
+		font-family: 'Lobster', cursive;
+
+	}
+	div {
+		margin-right: 20%;
+		margin-left: 20%;
+		text-align: center;
+	}
+	h1{
+		text-align: center;
+		text-shadow: 2px 2px gray;
+	}
+	p{
+		font-size: 100%;
+	}
+	p::first-letter {
+  		font-size: 150%;
+  		color: red;
+	}
+
+	img{
+		width: 200px;
+		height: auto;
+	}
+	.figureRight{
+		margin: 40px;
+		display: inline-block;
+		float: right;
+	}
+	.figureimg{
+		vertical-align: top;
+	}
+	.figcaption{
+		text-align: center;
+	}
+	.figureLeft{
+		margin: 40px;
+		display: inline-block;
+		float: left;
+	}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.link{
+	color:  blue;
+}
+.link:hover{
+	color:  purple;
+}
+a{
+	font-size: 150%;
+}
+hr{
+	width: 80%;
+}
+}
