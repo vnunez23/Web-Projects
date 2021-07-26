@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Lab5PartA.css">
+	<script type="text/javascript" src="Lab5PartA.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+
+	<title>Unit Converter</title>
+</head>
+<body>
+	<h1>Unit Converter</h1>
+<form>
+	
+	<table class="center"><tr><td>
+  <label for="startType">Choose a Starting Unit: </label></td>
+  <td><select name="startType" id="unitToConvert">
+        <option value="litres">Litres</option>
+        <option value="gallons">Gallons</option>
+        <option value="meters">Meters</option>
+        <option value="feet">Feet</option>
+        <option value="sqMeters">Square Meters</option>
+        <option value="sqFeet">Square Feet</option>
+        <option value="km">Kilometers</option>
+        <option value="miles">Miles</option>
+  </select></td></tr></table>
+  <br>
+  <table class="center"><tr><td><label for="inputVal">Enter the Value you wish to convert: </label>
+  </td>
+  <td><input type="text" name="inputVal" id="inputVal" value="0" size="10" maxlength="10"></td></tr>
+
+  <tr><td><p>Converted Value:</p></td> <td><span id="value"></span></p></td></tr>
+  </table>
+  <br>
+  <button onclick="convertType();return false">Start!</button>
+  
+
+</form>
+</body>
+</html>
+
+<!-- Background Image Source: https://www.123rf.com/stock-photo/math_background.html?sti=lhdj0jvspo8iaq9xbk| -->

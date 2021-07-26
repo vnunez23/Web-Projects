@@ -1,0 +1,58 @@
+@media all{
+
+	body{
+		text-align: center;
+		margin-right: 20%;
+		margin-left: 20%;
+		margin-top: 20%;
+		font-family: 'Baloo Tammudu 2', cursive;
+		font-size: 120%;
+		color:  whitesmoke;
+
+	}
+	body::after{
+		background-image: url(photos/background.jpg);
+		background-size: cover;
+		position: absolute;
+		content: "";
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		opacity: 0.8;
+		z-index: -1;
+	}
+	td {
+		margin-left: 5%;
+		text-align: right;
+		padding: 5px;
+		column-width: 300px;
+	}
+	input{
+		font-size: 90%;
+
+
+	}
+
+	select{
+		font-size: 90%;
+	}
+	button{
+		width: 100px;
+		height: 40px;
+		font-size: 120%;
+	}
+	span{
+		font-size: 120%;
+		text-align: left;
+
+	}
+	h1{
+		font-size: 250%;
+		text-shadow: 3px 3px dimgrey;
+	}
+	.center {
+  		margin-left: auto;
+  		margin-right: auto;
+	}
+}
